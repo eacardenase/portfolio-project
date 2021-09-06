@@ -678,6 +678,83 @@ Connect
 Skills
 ===============
 */
+
+@media screen and (min-width: 768px) {
+    .skills-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+.skills {
+    background: var(--clr-primary-9);
+}
+
+.skills h3 {
+    margin: 1.5rem 0;
+    color: var(--clr-primary-1);
+}
+
+.skill {
+    margin-bottom: 1.25rem;
+}
+
+.skill p {
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    color: var(--clr-primary-1);
+}
+
+.skill-container {
+    background: var(--clr-white);
+    height: 1rem;
+    width: 100%;
+    border-radius: var(--radius);
+    position: relative;
+}
+
+.skill-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--clr-primary-5);
+    height: 100%;
+    width: 70%;
+    border-radius: var(--radius);
+}
+
+.value-60 {
+    width: 60%;
+}
+
+.value-30 {
+    width: 30%;
+}
+
+.value-0 {
+    width: 0%;
+}
+
+.skill-text {
+    position: absolute;
+    top: -2rem;
+    left: 70%;
+    transform: translateX(-70%);
+}
+
+.skill-60 {
+    left: 60%;
+}
+
+.skill-30 {
+    left: 30%;
+}
+
+.skill-0 {
+    left: 50%;
+}
+
 /*
 =============== 
 Timeline
